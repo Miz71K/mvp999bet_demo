@@ -2,9 +2,9 @@
 class DB
 {
     public static $str_hosting = 'localhost';
-    public static $str_database = 'hello789';
-    public static $str_username = 'root';
-    public static $str_password = '';
+    public static $str_database = 'mvp999bet_demo';
+    public static $str_username = 'mvp999bet_demo';
+    public static $str_password = 'mM336699*m';
 
     protected static $pdo = null;
     public static function getConnection()

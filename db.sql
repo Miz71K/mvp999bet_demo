@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2025 at 10:42 AM
+-- Generation Time: Nov 23, 2025 at 09:50 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -113,13 +113,15 @@ INSERT INTO `site_setting` (`id`, `order_id`, `setting_key`, `setting_value`, `s
 (59, 3, 'promotion', '/asset/img/uploads/6917948610f81_pro4_ucuuoe.png', '', '', 1),
 (60, 4, 'promotion', '/asset/img/uploads/6917948770f8e_pro5_bk5x9g.jpg', '', '', 1),
 (97, 0, 'announcement', 'โปรโมชั่นพิเศษ! เติมเงินวันนี้ รับโบนัสเพิ่ม 20% ทุกยอดฝาก', '', '', 1),
-(99, 0, 'popup', '/asset/img/uploads/69179933a5a7e_pro1_w9xcdp.png', '', '', 1),
+(99, 0, 'popup', '/asset/img/uploads/69179933a5a7e_pro1_w9xcdp.png', '', '', 0),
 (100, 0, 'deposit_info', '<strong>คำแนะนำ:</strong><br>\n  1. เข้าสู่ระบบ และไปที่หน้าฝากเงิน<br>\n  2. คัดลอกเลขบัญชีด้านบน<br>\n  3. โอนเงินผ่านแอปธนาคาร (ขั้นต่ำ 10 บาท)<br>\n  4. กลับมาที่หน้าเว็บ แล้วแนบสลิปยืนยัน<br>\n  5. รอระบบปรับยอดอัตโนมัติภายใน 1-3 นาที', '', '', 1),
 (101, 0, 'affiliate_info', '<div class=\"mb-2 font-semibold text-yellow-400\"><i class=\"mr-1 fad fa-lightbulb-on\"></i>คำแนะนำในการแนะนำเพื่อน</div>\n          <ul class=\"space-y-1 list-disc list-inside\">\n            <li>แชร์ลิงค์ชวนเพื่อนให้กับคนรู้จักของคุณ</li>\n            <li>เมื่อเพื่อนสมัครผ่านลิงค์และเริ่มเล่น คุณจะได้รับค่าคอมมิชชั่น</li>\n            <li>ยิ่งแนะนำมาก ยิ่งมีรายได้ต่อเนื่อง</li>\n            <li>ระบบจ่ายรายได้ตามระดับชั้นที่กำหนดไว้</li>\n            <li>ตรวจสอบรายได้และรายชื่อเพื่อนได้ในแท็บที่เกี่ยวข้อง</li>\n          </ul>', '', '', 1),
 (102, 0, 'withdraw_info', '<center><strong>โปรดอ่านก่อนทำการถอนเงิน</strong></center><br>\n\nระบบจะโอนเงินเฉพาะบัญชีที่ผูกไว้เท่านั้น<br>\nหลีกเลี่ยงการทำรายการในช่วงเวลา 00.00 – 01.00 น. เพื่อป้องกันความล่าช้า<br>\nโปรดตรวจสอบข้อมูลทุกครั้ง หากพบข้อผิดพลาด กรุณาติดต่อทีมงานทันที', '', '', 1),
 (103, 0, 'logo_auth', '/asset/img/uploads/69184936083b1_6916482c101c9_logo.gif', '', '', 1),
 (104, 0, 'logo_main', '/asset/img/uploads/69184938536b8_6916482e94a26_logo.webp', '', '', 1),
-(106, 0, 'logo_play', '/asset/img/uploads/69179c810ea9f_69164832a7750_home2.png', '', '', 1);
+(106, 0, 'logo_play', '/asset/img/uploads/69179c810ea9f_69164832a7750_home2.png', '', '', 1),
+(107, 0, 'user_profile', '/asset/img/uploads/692362c0601dc_user.png', '', '', 1),
+(108, 0, 'min_withdraw', '100', '', '', 1);
 
 -- --------------------------------------------------------
 
@@ -197,7 +199,14 @@ INSERT INTO `user_log` (`id`, `action`, `detail`, `from`, `to`, `status`, `creat
 (26, 'เพิ่มผู้ใช้ใหม่', 'เพิ่มผู้ใช้', '', 'test', 'success', '2025-11-15 03:51:12', 'admin', 'f9f6627a21cc3c85', '::1'),
 (27, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 03:51:18', 'test', '', '::1'),
 (28, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 03:51:32', 'admin', '', '::1'),
-(29, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 16:29:23', 'admin', '', '::1');
+(29, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 16:29:23', 'admin', '', '::1'),
+(30, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 17:25:05', 'admin', '', '::1'),
+(31, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 17:25:34', 'admin', '', '::1'),
+(32, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 17:47:40', 'admin', '', '::1'),
+(33, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 17:58:27', 'admin', '', '192.168.1.100'),
+(34, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 18:11:04', 'admin', '', '192.168.1.100'),
+(35, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-15 18:47:33', 'admin', '', '::1'),
+(36, 'เข้าสู่ระบบ', 'เข้าสู่ระบบสำเร็จ', '', '', 'success', '2025-11-24 01:59:11', 'admin', '', '::1');
 
 --
 -- Indexes for dumped tables
@@ -256,7 +265,7 @@ ALTER TABLE `payment`
 -- AUTO_INCREMENT for table `site_setting`
 --
 ALTER TABLE `site_setting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
 
 --
 -- AUTO_INCREMENT for table `user`
@@ -268,7 +277,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user_log`
 --
 ALTER TABLE `user_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
