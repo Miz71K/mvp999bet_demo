@@ -1,0 +1,25 @@
+{
+    "name": "BIOFOX88",
+    "short_name": "BIOFOX88",
+    "description": "",
+    "id": "/",
+    "icons": [
+      {
+        "src": "asset/img/favicon.ico",
+        "sizes": "256x256",
+        "type": "image/x-icon",
+        "purpose": "maskable"
+      },
+      {
+        "src": "asset/img/logo.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "any"
+      }
+    ],
+    "start_url": "/",
+    "theme_color": "#d4d4d8",
+    "background_color": "#d4d4d8",
+    "orientation": "any",
+    "display": "standalone"
+  }

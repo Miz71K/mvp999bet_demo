@@ -1,0 +1,25 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 8730">
+<g id="Group 6457">
+<g id="Group 6451">
+<circle id="Ellipse 595" cx="20" cy="20" r="19.5" stroke="url(#paint0_linear_969_1034)"/>
+</g>
+</g>
+<g id="Layer 2">
+<g id="Group 9003">
+<path id="Vector" d="M20 36.19C28.9415 36.19 36.19 28.9415 36.19 20C36.19 11.0585 28.9415 3.81 20 3.81C11.0585 3.81 3.81 11.0585 3.81 20C3.81 28.9415 11.0585 36.19 20 36.19Z" fill="#F0F0F0"/>
+<path id="Vector_2" d="M35.183 14.3687H4.817C4.16618 16.1226 3.81 18.0196 3.81 20C3.81 21.9804 4.16618 23.8774 4.817 25.6313H35.1831C35.8338 23.8774 36.19 21.9804 36.19 20C36.19 18.0196 35.8338 16.1226 35.183 14.3687Z" fill="#0052B4"/>
+<g id="Group">
+<path id="Vector_3" d="M20 3.81C15.093 3.81 10.6962 5.99337 7.72717 9.44127H32.2728C29.3038 5.99337 24.907 3.81 20 3.81Z" fill="#D80027"/>
+<path id="Vector_4" d="M32.2729 30.5587H7.72717C10.6962 34.0066 15.093 36.19 20 36.19C24.907 36.19 29.3038 34.0066 32.2729 30.5587Z" fill="#D80027"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_969_1034" x1="20" y1="0" x2="20" y2="40" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CCAB67"/>
+<stop offset="1" stop-color="#FFEEB0"/>
+</linearGradient>
+</defs>
+</svg>
