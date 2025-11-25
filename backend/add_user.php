@@ -17,8 +17,8 @@ if (getUser('role') != 2) {
 <head>
     <?php require_once 'template/header.php'; ?>
 
-    <link rel="stylesheet" href="asset/css/jquery.dataTables.min.css?_=<?= $rnd ?>">
-    <script src="asset/js/jquery.dataTables.min.js?_=<?= $rnd ?>"></script>
+    <link rel="stylesheet" href="asset/css/jquery.datatables.min.css?_=<?= $rnd ?>">
+    <script src="asset/js/jquery.datatables.min.js?_=<?= $rnd ?>"></script>
 
 </head>
 
